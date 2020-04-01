@@ -1,0 +1,60 @@
+{
+  "_comments": "google domains -> domain:googleapis.com domain:firebaseio.com domain:doubleclick.net domain:app-measurement.com domain:googlesyndication.com",
+  "ads_banner_enabled": true,
+  "ads_merc_enabled": true,
+  "ads_full_enabled": true,
+  "ads_reward_enabled": true,
+  "ads_non_skip_enabled": false,
+  "ads_native_enabled": true,
+  "ads_on_exit_enabled": true,
+  "ads_notification_start_enabled": true,
+  "ads_on_start_app" : true,
+  "ads_should_retry_get_after_failed" : true,
+  "ads_should_send_eu_result" : true,
+  "ads_should_check_for_eu" : true,
+  "adbmob_session" : {
+    "publisher_id" : "pub-4580984452201531",
+    "sdk_key" : "ca-app-pub-4580984452201531~2658565467",
+    "choose_country_ad_unit" : "ca-app-pub-4580984452201531/6214667094",
+    "on_success_interstitial_ad_unit" : "ca-app-pub-4580984452201531/9962340417",
+    "on_exit_interstitial_ad_unit" : "ca-app-pub-4580984452201531/7763552489",
+    "on_start_interstitial_ad_unit" : "ca-app-pub-4580984452201531/6450470813",
+    "on_exit_dialog_ad_unit" : "ca-app-pub-4580984452201531/4710013731",
+    "on_disconnected_dialog_ad_unit" : "ca-app-pub-4580984452201531/1198144139",
+    "on_donate_interstitial_ad_unit" : "ca-app-pub-4580984452201531/9763029861",
+    "on_donate_rewarded_ad_unit" : "ca-app-pub-4580984452201531/7571980793",
+    "choose_country_activity_ad_unit" : "ca-app-pub-4580984452201531/7144605388",
+    "main_activity_ad_unit" : "ca-app-pub-4580984452201531/3632735787"
+  },
+  "update_session": {
+    "auto_update_enabled": false,
+    "force_download": true,
+    "check_google_play": false,
+    "update_last_version": 700,
+    "update_length_arm64_v8a": 13710896,
+    "update_length_armeabi_v7a": 13392851,
+    "update_length_universal": 34533221,
+    "update_length_x86_64": 14218194,
+    "update_length_x86": 13843995,
+    "update_apk_url": "http://192.168.1.197:8080/app-${arch}-release.apk"
+  },
+  "custom_routing": {
+    "is_enable": true,
+    "direct_access": {
+      "domains": [],
+      "ips": [
+        "geoip:private"
+      ],
+      "protocols": []
+    },
+    "block_access": {
+      "domains": [],
+      "ips": [],
+      "protocols": [
+        "bittorrent"
+      ]
+    }
+  },
+  "mux_enabled": false,
+  "mux_concurrency": 36
+}
